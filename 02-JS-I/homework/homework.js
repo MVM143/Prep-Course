@@ -61,21 +61,29 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x == y;
+  if (x === y){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length == str2.length;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num < 90;
+  if (num < 90){
+    return true;
+  }else {
+    return false;
+  }
   
 }
 
@@ -140,7 +148,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random(1, 0);
+  return Math.random(1 ,0);
 }
 
 function esPositivo(numero) {
@@ -154,7 +162,7 @@ function esPositivo(numero) {
    else if (numero < 0){
     return "Es negativo";
   }
-   else (numero == 0)
+   else (numero === 0)
     return false;
   
 }
