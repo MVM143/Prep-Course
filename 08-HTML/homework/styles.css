@@ -1,17 +1,46 @@
+
 h1{
-    color:blueviolet
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 img{
     width: 400px;
 }
+
 #thirdDiv{
-    height: 600px;
+    height: 500px;
     width: 500px;
     background-color: palevioletred;
     padding: 50px;
     border: 20px aquamarine solid; 
+
 }
+ul{
+    list-style-type: square;
+}
+
 #spanID{
   font-size: 18px;  
   margin: 50px;
+}
+
+.divClass{
+    color: rgba(216, 224, 231, 0.993);
+    width: 640px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    background-image: url(./fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    text-align: center;
 }
